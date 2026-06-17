@@ -1,0 +1,10 @@
+FROM qwen2.5-coder:3b
+
+PARAMETER num_ctx 2048
+PARAMETER num_predict 1024
+PARAMETER temperature 0.2
+PARAMETER top_p 0.9
+PARAMETER top_k 40
+PARAMETER repeat_penalty 1.1
+PARAMETER num_gpu 99
+PARAMETER num_thread 4
